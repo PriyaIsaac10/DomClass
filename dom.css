@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(2, 4, 102);
+    color: #fff;
+    font-size: 20px;
+}
+
+html,body{
+    background-color: rgb(190, 213, 233);
+}
+main{
+   
+    margin: 20px auto;
+    text-align: center;
+    width: 600px;
+}
+
+main>div>h1{
+    font-size: 18px;
+
+}
+main>div>p{
+    font-size: 14px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color:  #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(182, 181, 181);
+}
+.input-food{
+    padding: 5px 10px;
+    outline: none;
+    width: 100%;
+    margin-right: 15px;
+    border: 1px solid ghostwhite;
+    background-color: #f2f2f2;
+    border-radius:5px;
+}
+.input-button{
+    padding: 5px 10px;
+    background-color: rgb(2, 4, 102); ;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    border-color: gray;
+    text-transform: uppercase;  /*full leter um uppercase la varum*/
+    font-size:12px;
+    width: 80px;
+}
+.food-container{
+    background: #fff;
+    margin: 20px 0;
+    list-style: none; /* <ul> tag use pannum bodhu varra dot poga idhu use pandrom */
+    padding: 20px;
+    text-align: left; /* sambar rasam curd left side pogum*/
+    box-shadow:  5px 5px 10px rgb(182, 181, 181) ;
+    border-radius: 5px;
+}
+.food-container .food-item{
+    padding: 5px 10px;
+    font-size:12px;
+    border: 1px solid rgb(230, 227, 227); /* sambar rasam curd table mari border varum*/
+    margin: 10px 0;
+    color: gray;
+    text-transform: capitalize; /* first letter mattum capital la varum*/
+    border-radius: 5px;
+}
+.food-container .food-item:hover{
+    background-color: rgb(79,123,255);
+    color: white;
+    cursor: pointer; /* click pandra pola effect kuduka*/
+    font-weight: bold;
+}
+.alert{
+    padding: 10px 20px 10px 10px;
+    background-color:green;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+    text-align: left;
+    border-left: 5px solid green;
+    font-weight: 500;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.alert button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}

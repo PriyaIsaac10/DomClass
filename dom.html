@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+<body>
+    <header>
+        🍒 FoodCook Planner
+    </header>
+    <main id="main">
+        <!------Alert------>
+       <div class="alert">
+           <div class="alert-message">
+              <strong>Successful!</strong> Food is Updated
+           </div>
+           <button type="button">X</button> 
+        </div>
+
+        <div class="container">
+            <input type="text" name="input-food-name" placeholder=" My Fav Food is..." class="input-food" id="input-food">
+            <button class="input-button" id="input-btn">Save</button>
+        </div>
+            <ul id="food-container" class="food-container">
+                <li class="food-item">Sambar</li>
+                <li class="food-item">Rasam</li>
+                <li class="food-item">Curd</li>
+            </ul>
+    </main>
+
+<!----------
+    <script>
+        const div = document.getElementsByTagName("div");
+        console.log(div); //<main> kulla 1 div iruku so console la oru list mattum kaatum
+    </script>
+
+    <div>
+        this is 2nd div
+    </div>
+    
+   <script>
+        console.log(div) // ipo 2 list kaatum because  two div iruku 
+   </script>
+
+   <div>
+    this is 3rd div
+   </div>
+----------------->
+
+
+    <script src = "dom.js"></script>
+    <script src = "learn.js"></script>
+
+</body>
+</html>
